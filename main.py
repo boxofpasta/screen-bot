@@ -64,7 +64,7 @@ def release_handler(event, organism):
 if __name__ == '__main__':
 
     # setup the sprite
-    gif_names = ["bird_right.gif", "bird_left.gif"]
+    gif_names = ["gifs/bird_right.gif", "gifs/bird_left.gif"]
     organism = Organism.Organism(update_func, 60, 60, gif_names,click_handler, move_handler, release_handler)
     organism.frame_interval = 50
 
